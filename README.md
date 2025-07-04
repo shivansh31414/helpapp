@@ -23,14 +23,18 @@ cd helpapp
 ```
 ### 2. Install Dependencies
 ```bash
-pip install streamlit python-dotenv google-
+pip install streamlit python-dotenv google--generativeai
 ```
 ### 3. Set Up Environment Variable
 Create a .env file in the root directory:
 
-```goggle_Api_key=your_google_gemini_api_key_here
+```bash
+goggle_Api_key=your_google_gemini_api_key_here
+
+
 ```
 ## 4.Run the App
 
-```streamlit run main.py
+```bash
+streamlit run main.py
 ```
